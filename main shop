@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        .buy-button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .name-input {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+    <title>Robux Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Robux Shop</h1>
+    </header>
+
+    <main>
+        <div class="product">
+            <h2>800 Robux</h2>
+            <p>Price: 20.00€</p>
+            <button class="buy-button">Buy Now</button>
+            <input type="text" placeholder="Your Name" class="name-input">
+        </div>
+
+        <div class="product">
+            <h2>1200 Robux</h2>
+            <p>Price: 25.00€</p>
+            <button class="buy-button">Buy Now</button>
+            <input type="text" placeholder="Your Name" class="name-input">
+        </div>
+
+        <div class="product">
+            <h2>1600 Robux (+100 Bonus)</h2>
+            <p>Price: 32.50€</p>
+            <button class="buy-button">Buy Now</button>
+            <input type="text" placeholder="Your Name" class="name-input">
+        </div>
+
+        <div class="product">
+            <h2>4000 Robux (+500 Bonus)</h2>
+            <p>Price: 75.00€</p>
+            <button class="buy-button">Buy Now</button>
+            <input type="text" placeholder="Your Name" class="name-input">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Robux Shop</p>
+    </footer>
+</body>
+</html>
